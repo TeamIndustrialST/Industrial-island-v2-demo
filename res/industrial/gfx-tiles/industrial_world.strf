@@ -1,0 +1,209 @@
+(supertux-tiles
+
+;; industrial tiles- next id: 730
+;; industrial tiles- skipped ids: 719, 720
+
+(tilegroup
+	(offset 20000)
+	(name (_ "Industrial Inside"))
+	(tiles
+		648 649 650 651
+		652 653 654 0
+		656 657 658 659
+		660 661 662 663
+		664 665 666 667
+		668 669 0   0
+
+		670 671 672 673
+		674 675 676 677
+		678 679 680 681
+		682 683 684 685
+
+		732 733 734 747
+		735 736 737 0
+		738 739 740 0
+		741 742 743 0
+		744 745 746 0
+	)
+)
+
+(tilegroup
+	(offset 20000)
+	(name (_ "Industrial Outside"))
+	(tiles
+		706 707 708 0
+		711 712 713 0
+		716 717 718 0
+		721 722 723 0
+		726 727 728 0
+		719 720 731 0
+		709 710 724 725
+		714 715 729 730
+	)
+)
+
+(tilegroup
+	(offset 20000)
+	(name (_ "Industrial Paths"))
+	(tiles
+		686 687 688 689
+		690 691 692 693
+		694 695 696 697
+		698 699 700 701
+		702 703 704 705
+	)
+)
+
+(tilegroup
+	(offset 20000)
+    (name (_ "Lightmap"))
+    (tiles
+	  2032 2033 2034 2035
+      2036 2037    0 2038
+      2039    0    0 2040
+      2035 2041 2042 2032
+
+      4195 4196 4197 4198
+      4199 4200 4201 4202
+      4203 4204 4205 4206
+         0 4207 4208 4209
+
+      4210 4211 4212 4213
+      4214 4215 4216 4217
+      4218 4219 4220 4221
+         0 4222 4223 4224
+    )
+  )
+
+(tiles
+	(offset 20000)
+	(width 4)(height 6)
+	(images "worldmap/industrial-mainpng.png")
+	(ids
+		648 649 650 651
+		652 653 654 0
+		656 657 658 659
+		660 661 662 663
+		664 665 666 667
+		668 669 0   0
+	)
+)
+
+(tiles
+	(offset 20000)
+	(width 4)(height 4)
+	(images "worldmap/industrial-deco.png")
+	(ids
+		670 671 672 673
+		674 675 676 677
+		678 679 680 681
+		682 683 684 685
+	)
+)
+
+(tiles
+	(offset 20000)
+    (width 4)
+    (height 4)
+    (ids
+      2032 2033 2034 2035
+      2036 2037    0 2038
+      2039    0    0 2040
+         0 2041 2042    0
+    )
+    (images "../../../images/tiles/lightmap/lightmap-bw.png")
+  )
+  (tiles
+	(offset 20000)
+    (width 4)
+    (height 4)
+    (ids
+      4195 4196 4197 4198
+      4199 4200 4201 4202
+      4203 4204 4205 4206
+         0 4207 4208 4209
+    )
+    (images "../../../images/tiles/lightmap/lightmap-white.png")
+  )
+  (tiles
+	(offset 20000)
+    (width 4)
+    (height 4)
+    (ids
+      4210 4211 4212 4213
+      4214 4215 4216 4217
+      4218 4219 4220 4221
+         0 4222 4223 4224
+    )
+    (images "../../../images/tiles/lightmap/lightmap-black.png")
+  )
+
+  (tiles
+	(offset 20000)
+	(width 4)(height 5)
+	(images "worldmap/industrial-roads.png")
+	(ids
+		686 687 688 689
+		690 691 692 693
+		694 695 696 697
+		698 699 700 701
+		702 703 704 705
+	)
+	(datas
+		 6 10 23 30
+		 5  9 29 27
+		20 18 12  3
+		17 24 31  0
+;		20 18 17 24
+		12  3  3 12
+	)
+)
+
+(tiles
+	(offset 20000)
+	(width 5)(height 6)
+	(images "worldmap/industrial-ground.png")
+	(ids
+		706 707 708 709 710
+		711 712 713 714 715
+		716 717 718 0   0
+		721 722 723 724 725
+		726 727 728 729 730
+		719 720 731 0   0
+	)
+)
+
+(tiles
+	(offset 20000)
+	(width 4)(height 5)
+	(images "worldmap/industrial-deco2.png")
+	(ids
+		0   732 733 734
+		0   735 736 737
+		0   738 739 740
+		0   741 742 743
+		0   744 745 746
+	)
+)
+
+(tile
+	;(offset 20000)
+	(id 20747)
+	(images
+		"worldmap/fence_shadow.png"
+	)
+)
+
+(tilegroup
+	(offset 20000)
+	(name "-------------------------")
+	(tiles
+		0 0 0 0
+	)
+)
+
+(import-tileset
+	(file "/images/ice_world.strf")
+)
+
+)

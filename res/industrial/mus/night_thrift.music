@@ -1,0 +1,5 @@
+(supertux-music
+  (file "night_thrift.ogg")
+  (loop-begin 0)
+  (loop-at 44.000)
+)

@@ -1,0 +1,50 @@
+(supertux-sprite
+  (action
+    (name "0")
+    (images "retro_0.png")
+  )
+  (action
+    (name "1")
+    (images "retro_1.png")
+  )
+  (action
+    (name "2")
+    (images "retro_2.png")
+  )
+  (action
+    (name "3")
+    (images "retro_3.png")
+  )
+  (action
+    (name "4")
+    (images "retro_4.png")
+  )
+  (action
+    (name "5")
+    (images "retro_5.png")
+  )
+  (action
+    (name "6")
+    (images "retro_6.png")
+  )
+  (action
+    (name "7")
+    (images "retro_7.png")
+  )
+  (action
+    (name "8")
+    (images "retro_8.png")
+  )
+  (action
+    (name "9")
+    (images "retro_9.png")
+  )
+  (action
+    (name "slash")
+    (images "retro_slash.png")
+  )
+  (action
+    (name "x")
+    (images "retro_x.png")
+  )
+)

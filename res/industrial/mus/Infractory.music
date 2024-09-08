@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Infractory.ogg")
+  (loop-begin 0)
+  (loop-at 138.000)
+)

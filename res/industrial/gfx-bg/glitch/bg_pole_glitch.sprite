@@ -1,0 +1,14 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 1)
+    (images
+      "background_pole_glitch1.png"
+      "background_pole_glitch2.png"
+      "background_pole_glitch3.png"
+      "background_pole_glitch4.png"
+      "background_pole_glitch5.png"
+
+    )
+  )
+)

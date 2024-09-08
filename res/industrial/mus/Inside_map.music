@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Inside_map.ogg")
+  (loop-begin 0)
+  (loop-at    73.000)
+)

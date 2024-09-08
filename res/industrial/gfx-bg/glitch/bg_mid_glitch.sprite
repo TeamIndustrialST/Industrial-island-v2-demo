@@ -1,0 +1,12 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (fps 1)
+    (images
+      "factory_inside_bg_middle_glitch1.png"
+      "factory_inside_bg_middle_glitch2.png"
+      "factory_inside_bg_middle_glitch3.png"
+      "factory_inside_bg_middle_glitch4.png"
+    )
+  )
+)

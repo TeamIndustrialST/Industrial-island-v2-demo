@@ -1,0 +1,14 @@
+(supertux-sprite
+	 (action
+                   (name "doesnt_matter")
+                   (fps 11)
+            (images "Sprite-0001.png"
+            		"Sprite-0002.png"
+           			"Sprite-0003.png"
+					"Sprite-0004.png"
+					"Sprite-0005.png"
+					"Sprite-0006.png"
+           )
+
+	 )
+)

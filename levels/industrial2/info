@@ -1,0 +1,8 @@
+(supertux-level-subset
+  (title (_ "Industrial Island"))
+  (description (_ "Tux's cowardice leads him down an alternative path."))
+  (levelset #f)
+  (contrib-type "community")
+  (hide-from-contribs #f)
+  (title-level "/levels/industrial2/menu-industrial.stl")
+)

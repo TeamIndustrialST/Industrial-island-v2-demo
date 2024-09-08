@@ -1,0 +1,29 @@
+(supertux-sprite
+ (action
+  (name "left")
+  (fps 12)
+  (hitbox 8 8 32 32)
+  (images "dave-0.png"
+          "dave-1.png"))
+ 
+ (action
+  (name "right")
+  (fps 12)
+  (hitbox 8 8 32 32)
+  (mirror-action "left"))
+
+ (action
+  (name "squished-left")
+  (hitbox 8 8 32 32)
+  (loops 1)
+  (fps 10)
+  (images "dave-squished1.png"	
+   ))
+
+ (action
+  (name "squished-right")
+  (hitbox 8 8 32 32)
+ (loops 1)
+  (fps 10)
+  (mirror-action "squished-left"))
+)

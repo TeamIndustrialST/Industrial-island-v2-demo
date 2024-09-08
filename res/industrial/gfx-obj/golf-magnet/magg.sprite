@@ -1,0 +1,24 @@
+(supertux-sprite
+	(action
+	  (name "idle")
+	  (hitbox 16 45 32 32)
+	  (fps 6)
+	  (images
+      		"magg-idle.png"
+		"magg-idle1.png"
+		"magg-idle2.png"
+		"magg-idle3.png"
+           )
+)
+	(action
+	  (name "attract")
+	  (hitbox 16 45 32 32)
+	  (fps 20)
+	  (images
+      		"magg-attract0.png"
+			"magg-attract1.png"
+			"magg-attract2.png"
+			"magg-attract3.png"
+           )
+)
+)

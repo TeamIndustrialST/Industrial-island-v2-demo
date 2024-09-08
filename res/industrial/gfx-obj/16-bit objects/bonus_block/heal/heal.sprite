@@ -1,0 +1,24 @@
+(supertux-sprite
+  (action
+    (fps 10)
+    (name "normal")
+    (images "full-0.png"
+            "full-1.png"
+            "full-2.png"
+            "full-3.png"
+            "full-1.png"
+    )
+  )
+  (action
+    (name "empty")
+    (images "empty.png")
+  )
+  (action
+    (name "on")
+    (clone-action "empty")
+  )
+  (action
+    (name "off")
+    (clone-action "empty")
+  )
+)

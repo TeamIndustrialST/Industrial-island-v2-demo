@@ -1,0 +1,11 @@
+(supertux-sprite
+	(action
+	  (name "idle")
+	  (hitbox 16 45 32 32)
+	  (loops 1)
+	  (fps 16)
+	  (images
+      		"copteranim.png"
+			"copteranim2.png"
+           )
+))

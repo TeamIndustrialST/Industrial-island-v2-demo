@@ -1,0 +1,30 @@
+(supertux-sprite
+  (action
+    (name "flying-left")
+    (hitbox 6 12 22 9)
+    (fps 3)
+    (images "bullet0.png"
+            "bullet1.png"    
+    )
+  )
+  (action
+    (name "flying-right")
+    (hitbox 4 12 22 9)
+     (fps 3)
+    (mirror-action "flying-left")
+  )
+  (action
+    (name "flying-down")
+    (hitbox 12 4 9 22)
+    (fps 3)
+    (images "bullet0_down.png"
+            "bullet1_down.png"
+    )
+  )
+  (action
+    (name "flying-up")
+    (hitbox 12 6 9 22)
+    (fps 3)
+    (flip-action "flying-down")
+  )
+)

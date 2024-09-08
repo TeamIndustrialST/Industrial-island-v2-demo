@@ -1,0 +1,43 @@
+(supertux-sprite
+	 (action
+                   (name "left")
+                   (hitbox 6 12 32 32)
+                   (fps 11)
+                   (images "metal.png"
+            "metal1.png"
+            "metal2.png"
+           )
+)
+	
+	(action
+	  (name "right")
+	  (hitbox 6 12 32 32)
+	  (fps 11)
+	  (mirror-action "left"))
+	
+    (action
+	  (name "iced-left")
+	  (hitbox 6 12 32 32)
+	  (images "metal.png"))
+	
+	(action
+	  (name "iced-right")
+	  (hitbox 6 12 32 32)
+	  (mirror-action "iced-left"))
+	
+	(action
+	  (name "squished-left")
+	  (hitbox 6 -2 32 32)
+          (loops 1)
+ 	  (fps 10)
+	  (images
+	  "metal-squish2.png"
+	  "metal-squish3.png"
+	))
+	
+	(action
+	  (name "squished-right")
+	  (hitbox 6 -2 32 32)
+	  (mirror-action "squished-left"))
+	
+)

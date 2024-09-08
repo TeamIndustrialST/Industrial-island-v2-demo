@@ -1,0 +1,9 @@
+(supertux-sprite
+      (action
+		 (name "normal")
+         (images "paused.png"))
+      (action
+		 (name "playing")
+         (images "playing.png"))  
+
+)

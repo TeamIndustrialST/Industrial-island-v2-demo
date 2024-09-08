@@ -1,0 +1,25 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 16 16 0 0)
+    (fps 8)
+    (images "bambi.png"
+	"bambi.png"
+	"bambi1.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi2.png"
+	"bambi1.png"
+	"bambi.png"
+	"bambi.png"
+	"bambi.png"
+	"bambi.png"
+	"bambi.png"
+	"bambi.png"
+)
+  )
+)

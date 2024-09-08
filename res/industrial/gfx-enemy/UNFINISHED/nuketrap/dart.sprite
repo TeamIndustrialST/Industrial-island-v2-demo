@@ -1,0 +1,50 @@
+(supertux-sprite
+  (action
+    (name "flying-left")
+    (hitbox 8 2 22 20)
+    (loops 1)
+    (fps 128)
+    (images 
+	"1.png"
+	"2.png"
+	"3.png"
+  "4.png"
+	"5.png"
+	"6.png"
+  "7.png"
+	"8.png"
+	"9.png"
+  "10.png"
+	"11.png"
+	"12.png"
+  "13.png"
+	"14.png"
+	"15.png"
+  "16.png"
+	"17.png"
+	"18.png"
+  "19.png"
+	"20.png"
+  "21.png"
+  "root_dart_left.png"
+	)
+  )
+  (action
+    (name "flying-right")
+     (hitbox 8 2 18 20)
+    (hitbox 8 2 22 20)
+    (loops 1)
+    (fps 128)
+    (mirror-action "flying-left")
+  )
+  (action
+    (name "flying-down")
+    (hitbox 6 12 22 20)
+    (images "root_dart_down.png")
+  )
+  (action
+    (name "flying-up")
+    (hitbox 12 6 9 22)
+    (flip-action "flying-down")
+  )
+)

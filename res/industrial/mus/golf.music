@@ -1,0 +1,5 @@
+(supertux-music
+  (file "golf.ogg")
+  (loop-begin 0.000)
+  (loop-at    88.000)
+)

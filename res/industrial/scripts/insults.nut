@@ -1,0 +1,28 @@
+getconsttable().insults <- [
+
+// Place all insults below. Surround them with quotes.
+"Cheater!"
+"Hey you, I know you're cheating"
+"You like using ghost mode, don't you?"
+"You're not getting out of this that easily."
+"One step ahead of you!"
+"Wow, you know dev mode exists. I bet you feel sooooo special."
+"Go go gadget- devmode anticheat!"
+"Nice try, bucko."
+"At this point, you might as well just look up a playthrough of this on youtube or something."
+"Take your weak buttocks back to yeti's revenge!"
+"well, that was unessecary."
+"Given up that easily?"
+"Woah woah woah! We don't take kindly to cheaters around here!"
+"If you need help, just ask your mom to finish this level for you."
+"Seems you have quite the low difficulty tolerance."
+"What's the point of playing if your just gonna cheat?"
+"Which choke point was it this time?"
+"Cheaters never prosper, just get banned. You cheated, so i got to cheat by having chatGPT write this quote."
+"Wouldn't be shocked if you activated this out of habit."
+"These quotes can only be removed by restartin the game, by the way."
+"No ghostmode in the halls, detention for you."
+"Hey, stawp cheating... i-i d-dont wike that.. >m<"
+"Alright, give your little brother a turn. They'll probably do better then you anyways."
+"I'm more dissapointed in you then my teachers are in me, and trust me, that's a feat."
+]

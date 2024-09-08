@@ -1,0 +1,52 @@
+(supertux-sprite
+	(action
+	  (name "left")
+	  (hitbox 14 14 32 37)
+	  (fps 14)
+	  (images "walk-0.png"
+			  "walk-1.png"
+			  "walk-2.png"
+			  "walk-3.png"
+			  "walk-4.png"
+			  "walk-5.png"
+			  "walk-6.png"
+			  "walk-7.png"))
+
+	(action
+	  (name "right")
+	  (hitbox 14 14 32 37)
+	  (fps 14)
+	  (mirror-action "left"))
+
+	(action
+	  (name "flat-left")
+	  (hitbox 14 14 32 37)
+	  (images "flat-left.png"))
+
+	(action
+	  (name "flat-right")
+	  (hitbox 14 14 32 37)
+	  (mirror-action "flat-left"))
+
+  (action
+    (name "waking-left")
+    (fps 12)
+	(loops 1)
+    (hitbox 14 14 32 37)
+    (images "wake-0.png"
+	      	"wake-1.png"
+	      	"wake-2.png"
+	      	"wake-2.png"
+	      	"wake-0.png"
+	      	"wake-1.png"
+	      	"wake-2.png"
+	      	"wake-3.png"
+	      	"wake-4.png"
+	      	"wake-5.png"))
+
+  (action
+    (name "waking-right")
+	(fps 12)
+	(loops 1)
+    (hitbox 14 14 32 37)
+    (mirror-action "waking-left")))

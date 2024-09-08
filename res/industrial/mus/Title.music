@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Title.ogg")
+  (loop-begin 4.000)
+  (loop-at    53.000)
+)

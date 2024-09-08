@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Outside_1.ogg")
+  (loop-begin 21.333)
+  (loop-at    106.666)
+)

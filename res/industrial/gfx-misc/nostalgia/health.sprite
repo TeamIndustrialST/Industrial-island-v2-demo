@@ -1,0 +1,10 @@
+(supertux-sprite
+  (action
+    (name "on")
+    (images "health-full.png")
+  )
+  (action
+    (name "off")
+    (images "health-empty.png")
+  )
+)

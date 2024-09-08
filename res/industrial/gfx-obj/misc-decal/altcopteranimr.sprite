@@ -1,0 +1,16 @@
+(supertux-sprite
+  (action
+    (name "idle")
+    (hitbox 8 45 32 32)
+    (images "copter.png")
+  )
+  (action
+    (name "flying")
+    (hitbox 12 45 32 32)
+    (fps 16)
+    (images
+      "altcopteranimr.png"
+      "altcopteranimr2.png"
+    )
+  )
+)

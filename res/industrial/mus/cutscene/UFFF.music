@@ -1,0 +1,5 @@
+(supertux-music
+  (file "UFFFF.ogg")
+  (loop-begin 5.333)
+  (loop-at    109.333)
+)

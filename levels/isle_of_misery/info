@@ -1,0 +1,8 @@
+(supertux-level-subset
+  (title (_ "Isle of misery"))
+  (description (_ "Made like a dark, fricked up version of industrial island haha. Just a glimpse into my dark reality. A full stare into my twisted perspective would make most simply go insane >w<"))
+  (levelset #f)
+  (contrib-type "community")
+  (hide-from-contribs #f)
+  (title-level "")
+)

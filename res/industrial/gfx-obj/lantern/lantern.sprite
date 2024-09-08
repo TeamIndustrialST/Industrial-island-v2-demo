@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "default")
+    (hitbox 33 54 32 32)
+    (images "lantern.png")
+  )
+)

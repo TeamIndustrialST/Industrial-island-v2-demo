@@ -1,0 +1,22 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "normal")
+            (images "onoff0.png"
+                 "onoff1.png"
+                 "onoff2.png"
+                 "onoff3.png"
+                 "onoff4.png"
+                 "onoff5.png"
+                 "onoff6.png"
+                 "onoff7.png"
+                 "onoff8.png"
+                 "onoff9.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "offset.png"))
+           (displacement-texture (file "offset.png")))))
+)

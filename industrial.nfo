@@ -1,0 +1,8 @@
+(supertux-addoninfo
+  (id "industrial")
+  (version 1)
+  (type "worldmap")
+  (title "Industrial Island V2")
+  (author "Team Industrial")
+  (license "CC-BY-SA 4.0 International")
+)

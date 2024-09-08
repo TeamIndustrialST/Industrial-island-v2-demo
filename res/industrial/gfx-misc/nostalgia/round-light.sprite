@@ -1,0 +1,10 @@
+(supertux-sprite
+  (action
+    (name "on")
+    (images "round-light1.png")
+  )
+  (action
+    (name "off")
+    (images "round-light2.png")
+  )
+)

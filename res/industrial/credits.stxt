@@ -1,0 +1,152 @@
+(supertux-text
+  (version 2)
+  (background "/industrial/credits.png")
+  (music "res/industrial/mus/old/credits.music")
+  (speed 60)
+  (content
+    (image "res/industrial/gfx-misc/Industrial_Island_logo.png")
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (text
+      (type "heading")
+      (string (_ "Team Industrial"))
+    )
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (person
+      (name "Joseph \"FrostC\" L.")
+      (info (_ "Project lead, Level designer, Artist."))
+      (image "res/industrial/gfx-misc/credits/frost.png")
+    ) 
+    (blank)
+    (blank)
+    
+    (person
+      (name "Jonathan Tyler \"orange juice\" Fluhart Jr.")
+      (info (_ "Programmer, Playtesting."))
+      (image "res/industrial/gfx-misc/credits/orange.png")
+    )
+    (blank)
+        (blank)
+    
+    (person
+      (name "RodirodDude")
+      (info (_ "Primary Composer, Artist, Project lead for v1."))
+      (image "res/industrial/gfx-misc/credits/rod.png")
+    )
+    (blank)
+        (blank)
+    
+    (person
+      (name "Sevenberry")
+      (info (_ "Level designer."))
+      (image "res/industrial/gfx-misc/credits/seven.png")
+    )
+    (blank)
+        (blank)
+    
+    (person
+      (name "Bruhmoent")
+      (info (_ "Level designer, Artist, Sound designer, Project lead for v1, Composed the shop song."))
+      (image "res/industrial/gfx-misc/credits/bruh.png")
+    )
+    (blank)
+        (blank)
+    
+    (person
+      (name "Deerbuddy")
+      (info (_ "Other Main Composer."))
+      (image "res/industrial/gfx-misc/credits/deer.png")
+    )
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (text
+      (type "heading")
+      (string (_ "Special Thanks"))
+    )
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (person
+      (name "Vankata453")
+      (info (_ "Worked on industrial v1, and added many features to the base game that made Industrial possible."))
+    )
+    (blank)
+    (person
+      (name "MatusGuy")
+      (info (_ "Added features to the base game that made Industrial possible."))
+    )
+    (blank)
+    (person
+      (name "Rustybox")
+      (info (_ "Playtesting, was also paid 50 Euro to draw an enemy sprite, let us include some playtester backgrounds in the addon Zip."))
+    )
+    (blank)
+    (person
+      (name "Salomón \"SkittlesHD\" Duarte")
+      (info (_ "Created some levels that ended up getting scrapped. Sorry!"))
+    )
+    (blank)
+    (person
+      (name "Raoul1808")
+      (info (_ "Worked on industrial island v1."))
+    )
+    (blank)
+    (person
+      (name "KiyanTBP")
+      (info (_ "Former team industrial member, Worked on industrial island v1."))
+    )
+    (blank)
+    (person
+      (name "Poketmarty04")
+      (info (_ "Didn't do anything, just credited because it's funny."))
+    )
+    (blank)
+    (person
+      (name "Kelvin Shadewing")
+      (info (_ "Playtesting."))
+    )
+    (blank)
+    (person
+      (name "Daniel \"WeLuvGoatz\" Ward")
+      (info (_ "Playtesting, Created pieces of graffiti for the ''Hole in bomb''."))
+    )
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (blank)
+    (text
+      (type "normal")
+      (string (_ "Wanna listen to some tunes?"))
+    )
+    (text
+      (type "reference")
+      (string "https://soundcloud.com/frost-ii-760553296/sets/industrial-v2-ost")
+    )
+    (text
+      (type "normal")
+      (string (_ "Like the Add-on on Gamebanana!"))
+    )
+    (text
+      (type "reference")
+      (string "https://gamebanana.com/wips/84189")
+    )
+    (text
+      (type "normal")
+      (string (_ "See you in the full release!"))
+    )
+    (blank)
+  )
+)

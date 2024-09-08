@@ -1,0 +1,19 @@
+(supertux-autotiles
+  (autotileset
+    (name "industrial_outside_solid")
+    (default 25264)
+    (autotile
+      (id 25399)
+      (alt-id
+        (id 25400)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 25264)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "********")
+    )
+  )
+)

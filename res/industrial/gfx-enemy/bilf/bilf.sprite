@@ -1,0 +1,74 @@
+(supertux-sprite
+  (action
+    (name "asleep")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_asleep.png"
+    )
+  )
+  (action
+    (name "goal")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_goal.png"
+    )
+  )
+  (action
+    (name "par")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_goal_par.png"
+    )
+  )
+  (action
+    (name "hit")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_hit_awake.png"
+    )
+  )
+  (action
+    (name "hit-asleep")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_hit-asleep.png"
+    )
+  )
+  (action
+    (name "idle")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_idle.png"
+    )
+  )
+  (action
+    (name "prepare")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "bilf_prepare.png"
+    )
+  )
+  (action
+    (name "PEAK")
+    (hitbox 6 12 32 32)
+    (loops 1)
+    (fps 20)
+    (images
+      "peak.png"
+    )
+  )
+)
