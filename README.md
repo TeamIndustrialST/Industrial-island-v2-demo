@@ -2,6 +2,7 @@
 
 ## How to install:
 Download this repository as a ZIP, then follow these instructions 
+# ![](https://github.com/TeamIndustrialST/Industrial-island-v2-demo/blob/main/github/gh-tut.jpeg?raw=true)
 
 -make sure you don't have any previous version of industrial installed, including industrial v1, a v2 leaked build, or the isle of misery demo
 
