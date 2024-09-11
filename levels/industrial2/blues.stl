@@ -64,11 +64,6 @@ TheDuker(\"the-bluker\",3,8)")
       (x 1856)
       (y 1568)
     )
-    (bonusblock
-      (z-pos 51)
-      (x 3520)
-      (y 2432)
-    )
     (camera
       (name "Camera")
       (mode "normal")

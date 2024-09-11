@@ -1650,13 +1650,6 @@ state.industrial.artificial_descent_secret <- true")
       (x 7680)
       (y 1824)
     )
-    (stalactite
-      (type "rock")
-      (z-pos -1)
-      (sprite "/res/industrial/gfx-enemy/icicle/stalactite.sprite")
-      (x 6256)
-      (y 2592)
-    )
     (tilemap
       (handle
         (scale_x 0)
